@@ -78,13 +78,13 @@ git branch -a
 // how to pull changes from remote repository 
 // rebase will keep your local changes on the top 
 // lets assume changes are stored on stack 
-vikashkumar@LM-SJN-21000931 ~/s/JavaScript> git pull --rebase 
+JavaScript> git pull --rebase 
 From https://github.com/krirohini/JavaScript
  * [new branch]      develop    -> origin/develop
  * [new branch]      release    -> origin/release
 Current branch master is up to date.
 
-vikashkumar@LM-SJN-21000931 ~/s/JavaScript> git branch -a 
+JavaScript> git branch -a 
 * master
   remotes/origin/HEAD -> origin/master
   remotes/origin/develop
@@ -142,7 +142,7 @@ JavaScript> git commit -m"added first javascript code"
 c . push changes when all development is over push the changes 
 JavaScript> git push 
 	To https://github.com/krirohini/JavaScript.git
-   	44b18ac..cdbcdfe  develop -> develop
+   	 develop -> develop
 	
 d. now check on remote git hub file should be present there 
 https://github.com/krirohini/JavaScript/tree/develop
